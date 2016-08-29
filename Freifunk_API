@@ -1,0 +1,79 @@
+{
+  "name": "Freifunk Rhein-Erft",
+  "url": "http://ffrek.de",
+  "location": {
+    "city": "Rhein-Erft-Kreis",
+    "country": "DE",
+    "lat": 50.9513,
+    "lon": 6.6308
+  },
+  "contact": {
+    "email": "ff@utzer.de",
+    "ml": "ffrek@lists.ffrek.de",
+    "twitter": "@Freifunk_REK"
+  },
+  "metacommunity": "Freifunk REK",
+  "state": {
+    "nodes": 55,
+    "description": "Die Community Rhein-Erft ist die Anlaufstelle für Freifunk im Rhein-Erft-Kreis, wir bauen aktuell eine Domäne auf, die in allen Städten im Kreis aktiv ist/sein soll. ",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-08-29T20:25:36.806Z"
+  },
+  "feeds": [
+    {
+      "name": "Freifunk Rhein-Erft",
+      "category": "blog",
+      "type": "RSS",
+      "url": "http://ffrek.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.ffrek.de/",
+      "interval": "1 minute",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.ffrek.de:8080/nodes.json",
+      "interval": "1 minute",
+      "technicalType": "nodelist"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Freifunk Rheinland e.V.",
+      "street": "Postfach 10 03 54",
+      "zip": "41003",
+      "city": "Mönchengladbach",
+      "url": "http://freifunk-rheinland.net",
+      "email": "kontakt@freifunk-rheinland.net"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE16430609674044542600",
+        "BIC": "GENODEM1GLS"
+      }
+    }
+  },
+  "techDetails": {
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.14"
+}
